@@ -97,8 +97,8 @@ See other examples of zenoh usage in [examples/](examples)
     Repeat this option to open several listeners. By default, `tcp/[::]:7447` is used. The following endpoints are currently supported:
       - TCP: `tcp/<host_name_or_IPv4_or_IPv6>:<port>`
       - UDP: `udp/<host_name_or_IPv4_or_IPv6>:<port>`
-      - [TCP+TLS](https://zenoh.io/docs/manual/tls/): `tls/<host_name>:<port>`
-      - [QUIC](https://zenoh.io/docs/manual/quic/): `quic/<host_name>:<port>`
+      - [TCP+TLS](https://zenoh.io/docs/manual/tls/): `tls/<host_name>:<port>` TODO: FIX CONFIGURATION
+      - [QUIC](https://zenoh.io/docs/manual/quic/): `quic/<host_name>:<port>`  TODO: FIX CONFIGURATION
   * `-e, --connect <ENDPOINT>...`: An endpoint this router will try to connect to. Repeat this option to connect to several peers or routers.
   * `--no-multicast-scouting`: By default zenohd replies to multicast scouting messages for being discovered by peers and clients.
     This option disables this feature.
